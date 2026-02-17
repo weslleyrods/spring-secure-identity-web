@@ -1,0 +1,8 @@
+/* header.component.css */
+.mat-bg-primary {
+  /* --mat-sys-primary: É a cor principal do seu tema (azul, roxo, etc) */
+  background-color: var(--mat-sys-primary);
+
+  /* --mat-sys-on-primary: É a cor do texto/ícones que garante contraste (branco ou preto) */
+  color: var(--mat-sys-on-primary);
+}

@@ -1,0 +1,4 @@
+.mat-bg-primary-container {
+  /* --mat-sys-primary: É a cor principal do seu tema (azul, roxo, etc) */
+    background-color: var(--mat-sys-primary-container);
+}
