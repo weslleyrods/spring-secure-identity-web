@@ -6,6 +6,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatStepperModule } from '@angular/material/stepper';
 import { User } from '../services/user';
 import { Router } from '@angular/router';
+import { CdkAriaLive } from "../../../node_modules/@angular/cdk/types/_a11y-module-chunk";
 
 @Component({
   selector: 'app-register-form',
@@ -17,7 +18,7 @@ import { Router } from '@angular/router';
     ReactiveFormsModule,
     MatFormFieldModule,
     MatInputModule,
-  ],
+],
   templateUrl: './register-form.html',
   styleUrl: './register-form.css',
 })
