@@ -11,6 +11,10 @@ import { Auth } from '../../services/auth';
   styleUrl: './login.css',
 })
 export class Login {
+
+  constructor() {
+
+  }
   private authService = inject(Auth);
   private router = inject(Router);
   private destroyRef = inject(DestroyRef);

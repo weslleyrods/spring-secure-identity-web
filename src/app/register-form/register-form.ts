@@ -35,7 +35,6 @@ export class RegisterForm {
   });
 
   onSubmit() {
-    console.log(this.registerForm.value);
     if(!this.registerForm.valid) return
     const{ name, email, password } = this.registerForm.value;
     this.userService.register(name!, email!, password!).subscribe({
